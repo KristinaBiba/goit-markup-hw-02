@@ -13,17 +13,36 @@
 body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
 }
 /* Стили хедера */
 .logo {
   color: var(--accent-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .header-logo {
   color: var(--header-logo-color);
 }
 .main-nav a {
   color: var(--main-title-text-color);
-}
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  }
 .main-nav .activity{
   color: var(--accent-text-color);
 }
@@ -37,15 +56,32 @@ body {
 }
 .nav-address a {
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* Стили Студии */
 .hero {
   background-color: var(--hero-background-color);
   color: var(--additional-text-color);
 }
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .order {
   color: var(--additional-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 .order:hover,
 .order:focus {
@@ -53,6 +89,32 @@ body {
 }
 .section .title {
   color: var(--main-title-text-color);
+}
+.feature .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.team {
+background-color: var(--button-background);
+}
+.works,
+.team > h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Стили футера */
 footer {
@@ -63,18 +125,36 @@ footer {
 }
 .address {
   color: var(--additional-text-color);
+  font-style: normal;
 }
 .footer-address a {
   color: var(--adress-text-color);
+  font-style: normal;
 }
 /* Стили Портфолио */
 .button {
   color: var(--main-title-text-colo);
   background-color: var(--button-background);
   border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+  text-align: center;
 }
 .button:focus,
 .button:hover {
   color: var(--additional-text-color);
   background-color: var(--accent-text-color);
+}
+.examples .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples p {
+  font-size: 16px;
+  line-height: 1.88;
 }
