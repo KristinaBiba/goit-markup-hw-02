@@ -16,7 +16,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 a {
@@ -71,6 +70,7 @@ li {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -78,6 +78,7 @@ li {
   color: var(--additional-text-color);
   background-color: var(--accent-text-color);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -95,6 +96,9 @@ li {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.feature p{
+  line-height: 1.71;
 }
 .team {
 background-color: var(--button-background);
@@ -126,10 +130,12 @@ footer {
 .address {
   color: var(--additional-text-color);
   font-style: normal;
+  line-height: 1.71;
 }
 .footer-address a {
   color: var(--adress-text-color);
   font-style: normal;
+  line-height: 1.71;
 }
 /* Стили Портфолио */
 .button {
